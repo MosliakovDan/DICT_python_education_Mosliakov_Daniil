@@ -16,3 +16,18 @@ while current_number <= target_number:
     print(current_number, "!")
     current_number += 1
 print("Completed, have a nice day")
+print("Lets test your programming knowledge")
+while True:
+    print("Which function of the math module is designed to calculate the factorial?")
+    print("1 math.factorial")
+    print("2 math.sqrt")
+    print("3 math.sin")
+    print("4 math.log")
+    user_answer = input("Enter the number: ")
+    correct_answer = '1'
+    if user_answer == correct_answer:
+        print("Completed, have a nice day!")
+        print("Congratulations, have a nice day!")
+        break
+    else:
+        print("Please, try again")
